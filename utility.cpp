@@ -46,7 +46,6 @@ bool startsWith(const std::string& str, const std::string& prefix) {
             return false;
         }
     }
-
     return true;
 }
 
@@ -73,7 +72,6 @@ void removeExtraSpaces(string& input) {
     // Update the original string with the processed result.
     input = result;
 }
-
 
 string getWord(const string& str, int num) {
     stringstream ss(str);
@@ -108,7 +106,6 @@ vector<string> getWordsExcludingFirstThree(const string& str) {
     
     return result;
 }
-
 
 vector<string> queries = {
     "create database",
